@@ -11,18 +11,18 @@
 <h3>WELCOME TO WHUSERTYPE REGISTER PAGE</h3>
 <pre>
 User Type:
-		<input type="radio" name="WhUserType" value="Vender">Vender
-		<input type="radio" name="WhUserType" value="Customer">Customer
+		<input type="radio" name="userType" value="Vender">Vender
+		<input type="radio" name="userType" value="Customer">Customer
 User Code:
-		<input type="text" name="WhUserCode"/> 
+		<input type="text" name="wuserCode"/> 
 User for:	
-		<input type="text" name="WhUser" value="Purchase/Sale"/>
+		<input type="text" name="whuser" value="Purchase/Sale"/>
 User Email:
-		<input type="text" name="Email"/>
+		<input type="text" name="email"/>
 User Contact:
-		<input type="text" name="Contact"/>
+		<input type="text" name="contact"/>
 User Id Type:
-		<select name="WhUserIdType">
+		<select name="whuseridtype">
 		<option>--select</option>
 		<option>PAN CARD</option>
 		<option>AADHAR</option>
@@ -30,9 +30,9 @@ User Id Type:
 		<option>OTHER</option>
 		</select>
 *If Other:
-		<input type="text" name="Other"/>
+		<input type="text" name="other"/>
 Id Number:
-		<input type="text" name="WhIdNumber"/>
+		<input type="text" name="whidnumber"/>
 		
 		<input type="submit" value="Create WhUserType">
 		

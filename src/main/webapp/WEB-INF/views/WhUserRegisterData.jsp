@@ -27,14 +27,14 @@
 	<c:forEach items="${list}" var="ob">
 	<tr>
 		<td>${ob.wid}</td>
-		<td>${ob.WhUserCode}</td>
-		<td>${ob.WhUserType}</td>
-		<td>${ob.WhUser}</td>
-		<td>${ob.Email}</td>
-		<td>${ob.Contact}</td>
-		<td>${ob.WhUserIdType}</td>
-		<td>${ob.Other}</td>
-		<td>${ob.WhIdNumber}</td>
+		<td>${ob.wuserCode}</td>
+		<td>${ob.userType}</td>
+		<td>${ob.whuser}</td>
+		<td>${ob.email}</td>
+		<td>${ob.contact}</td>
+		<td>${ob.whuseridtype}</td>
+		<td>${ob.other}</td>
+		<td>${ob.whidnumber}</td>
 		</tr>
 		</c:forEach>
 		</table>
